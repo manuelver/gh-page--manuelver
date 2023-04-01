@@ -1,16 +1,26 @@
-name: Build and Deploy
+name: Build and Deploy 🚀
+
 on: [push]
+
+env:
+  RED: \033[31m
+  NORMAL: \033[0;39m
+
 jobs:
   build-and-deploy:
+    name: Build and Deploy 🚀
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3.5.0
 
       - name: Install and Build 🔧 
         run: |
+          echo -e "$RED CONSTRUCCIÓN DE LA APP $NORMAL"
           npm install
           npm run build
+          
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.4.1
