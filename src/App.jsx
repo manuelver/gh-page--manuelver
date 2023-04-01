@@ -9,14 +9,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
+        <p>Hola Vite + React!</p>
         <p>
           <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
+            Contador: {count}
           </button>
         </p>
         <p>
-          Edit <code>App.jsx</code> and save to test HMR updates.
+          Editando <code>App.jsx</code> y subiendo los cambios puedo hace pruebas frontend estáticas.
         </p>
         <p>
           <a
@@ -35,6 +35,15 @@ function App() {
             rel="noopener noreferrer"
           >
             Vite Docs
+          </a>
+          {' | '}
+          <a
+            className="App-link"
+            href="https://vergaracarmona.es"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Web Man
           </a>
         </p>
       </header>
