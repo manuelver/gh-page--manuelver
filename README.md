@@ -1,4 +1,4 @@
-# gh-react-vite
+# gh-page-manuelver
 
 Test deploy of a React app with Vite and GitHub Pages. 
 
